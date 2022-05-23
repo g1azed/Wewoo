@@ -1,0 +1,125 @@
+/* section 5 */
+
+#box5_wrap{
+    background-color: #f0f0f0;
+}
+#box5{
+    text-align: center;
+    width: 1520px;
+    margin-left: 200px; margin-right:200px;
+}
+#box5 h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#what{
+    position: relative;
+    height: 595px;
+    margin-top:43px;
+}
+.w_img{
+    width : 380px; height: 220px;
+}
+.w_center_img{
+    width: 506px; height: 265px;
+    position: absolute;
+    top: 180px; left: 500px;
+}
+.w_img_1{
+    position: absolute;
+    left: 1px;
+}
+.w_img_2{
+    position: absolute;
+    right: 1px;
+}
+.w_img_3{
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+.w_img_4{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+
+/* section 6 */
+#box6{
+    display: flex;
+}
+.box6_box{
+    width:480px; height: 1080px;
+    /* border: 1px solid black; */
+    color: white;
+    /* background-color: #ccc; */
+}
+.box6_h2{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 62px;
+}
+.box6_box p{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+#box6_1st{
+    width:480px; height: 1080px;
+    background-image: url(./img/background/Rectangle_131.png);
+    background-size: cover;
+}
+
+#box6_2st{
+    width:480px; height: 1080px;
+    background-image: url(./img/background/Rectangle_132.png);
+    background-size: cover;
+}
+#box6_3st{
+    width:480px; height: 1080px;
+    background-image: url(./img/background/Rectangle_133.png);
+    background-size: cover;
+}
+#box6_4st{
+    width:480px; height: 1080px;
+    background-image: url(./img/background/Rectangle_134.png);
+    background-size: cover;
+}
+
+/*section 7*/
+#box7{
+    width: 1920px; height: 1080px;
+}
+#box7_top{
+    height: 530px;
+    background-color: black;
+    color: white;
+}
+#box7_top h3{
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 24px;
+}
+#top_7_text1{
+    margin-left: 200px;
+    margin-top: 100px;
+    float: left;
+
+    font-size: 60px;
+}
+#top_7_line{
+    width: 200px; height: 1.5px;
+    background-color: white;
+
+    margin-top: 110px;
+    margin-left: 860px;
+}
+#top_7_text2{
+    margin-right: 200px;
+    margin-top: 100px;
+    float: right;
+    font-size: 60px;
+}

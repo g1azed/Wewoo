@@ -1,0 +1,179 @@
+/*section 1*/
+#main_box1_wrap {
+    width: 1920px;
+    background-color: black;
+}
+
+#box1 {
+    color: white;
+    width: 1520px;
+    height: 1080px;
+    margin-left: 200px; margin-right:200px;
+}
+
+#line {
+    display: inline-block;
+    width: 1520px;
+    font-size: 18px;
+    padding: 20px 0 5px 0;
+    border-bottom: 1px solid white;
+}
+
+#line-left {
+    display: inline;
+    text-align: left;
+}
+
+#line-right {
+    display: inline;
+    text-align: right;
+    margin-left: 1200px;
+}
+
+#logo {
+    margin-top: 350px;
+    display: inline-block;
+}
+
+#logo img {
+    width: 84px;
+    height: 84px;
+}
+
+#logo_text {
+    display: block;
+}
+
+#logo h2 {
+    font-size: 72px;
+    display: inline;
+}
+
+#logo h4 {
+    font-size: 30px;
+    display: inline;
+}
+
+/* section 2 */
+#box2{
+    width: 1520px;
+    margin-left: 200px; margin-right:200px;
+}
+#mockup {
+    position: absolute;
+    left: 800px;
+    top: 80px;
+}
+
+#mockup img {
+    width: 1000px;
+    height: auto;
+    filter: drop-shadow(0px 20px 75px rgba(0, 0, 0, 0.3));
+}
+
+#box2_left {
+    margin-top: 200px;
+}
+
+#box2_left h5 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#box2_left h3 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#box2_left p {
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+
+/*section 3*/
+#box3_wrap {
+    background-color: black;
+}
+
+#box3 {
+    width: 1520px;
+    color: white;
+    margin-left: 200px; margin-right:200px;
+}
+
+#box3_top {
+    display: block;
+    margin-top: 300px;
+}
+
+#box3_top_left {
+    display: block;
+    float: left;
+}
+
+#box3_top_left h3 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#box3_top_right {
+    display: block;
+    float: right;
+}
+
+#box3_top_right p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#box3_bottom {
+    width: 2200px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+    top: 2900px;
+    left: 30px;
+}
+
+.slide_box {
+    margin: 0 25px 0 25px;
+    width: 507px;
+    height: auto;
+
+}
+
+.slide_box img {
+    width: 507px;
+    height: auto;
+    margin: 0 0;
+}
+
+
+      
+
+
+/*section 4 */
+#box4{
+    width: 1520px;
+    margin-left: 200px; margin-right:200px;
+}
+#box4_right {
+    margin-top: 350px;
+    float: right;
+}
+
+#box4_right h3 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#box4_right h5 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#box4_right p {
+    font-size: 20px;
+    margin-top: 60px;
+}
