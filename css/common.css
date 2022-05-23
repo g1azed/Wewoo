@@ -12,6 +12,7 @@ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, '
 }
 html{
     max-width: 1920px;
+    overflow-x: hidden;
 }
 body{
     max-width: 1920px;

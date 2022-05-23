@@ -156,6 +156,7 @@
 } */
 
 .banner_wrap{
+    width: 1920px;
     position: absolute;
     top: 2900px;
 }
@@ -172,6 +173,7 @@
     width: 507px;
     height: auto;
     position: absolute;
+    overflow: hidden;
 }
 
 
