@@ -22,7 +22,7 @@
 // });
 
 //client rolling banner
-window.onload = function () {
+$(document).ready(function(){
     var bannerLeft = 0;
     var first = 1;
     var last;
@@ -65,7 +65,7 @@ window.onload = function () {
 
 
 
-};
+});
 
 
 $(document).ready(function () {
