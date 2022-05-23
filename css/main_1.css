@@ -101,12 +101,10 @@
 
 #box3 {
     color: white;
-
 }
 
 #box3_top {
     display: block;
-    margin-top: 300px;
     width: 1520px;
     margin-left: 200px;
     margin-right: 200px;
@@ -115,6 +113,7 @@
 #box3_top_left {
     display: block;
     float: left;
+    margin-top: 200px;
 }
 
 #box3_top_left h3 {
@@ -125,6 +124,7 @@
 #box3_top_right {
     display: block;
     float: right;
+    margin-top: 200px;
 }
 
 #box3_top_right p {
@@ -158,7 +158,7 @@
 .banner_wrap{
     width: 1920px;
     position: absolute;
-    top: 2900px;
+    top: 3050px;
 }
 .banner_w {
     width: 1920px;
@@ -204,4 +204,5 @@
 #box4_right p {
     font-size: 20px;
     margin-top: 60px;
+    margin-right: 200px;
 }

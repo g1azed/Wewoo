@@ -40,11 +40,9 @@ $(document).ready(function(){
 
     if (imgCnt > 4) {                //배너 9개 이상이면 이동시킴
 
-
-
         last = imgCnt;
 
-        setInterval(function () {
+        var moving = setInterval(function () {
             $img.each(function () {
                 $(this).css("left", $(this).position().left - 1); // 1px씩 왼쪽으로 이동
             });
@@ -57,30 +55,48 @@ $(document).ready(function(){
                 if (last > imgCnt) { last = 1; }
                 if (first > imgCnt) { first = 1; }
             }
-        }, 10);   //여기 값을 조정하면 속도를 조정할 수 있다.(위에 1px 이동하는 부분도 조정하면 
+        }, 50);   //여기 값을 조정하면 속도를 조정할 수 있다.(위에 1px 이동하는 부분도 조정하면 
 
         //깔끔하게 변경가능하다           
 
     }
 
-
-
-});
-
-
-$(document).ready(function () {
-
-    $(".slide_box").click(function(){
+    $(".s_box1").click(function(){
         var imageUrl = "./css/img/background/main_3_bg.png";
         $("#box3_wrap").css("background-image", "url(" + imageUrl + ") ")
         .css('background-repeat' , 'no-repeat')
         .css("background-size","cover");
-        //  이거 5개 똑같이 복붙하면 댈듯~
-    });  
+        // 이미지 바뀔때 페이드인 되면서 바뀌기
+    }); 
+    $(".s_box2").click(function(){
+        var imageUrl = "./css/img/background/cloud.jpg";
+        $("#box3_wrap").css("background-image", "url(" + imageUrl + ") ")
+        .css('background-repeat' , 'no-repeat')
+        .css("background-size","cover");
+        // 이미지 바뀔때 페이드인 되면서 바뀌기
+    }); 
+    $(".s_box3").click(function(){
+        var imageUrl = "./css/img/background/hospital.jpg";
+        $("#box3_wrap").css("background-image", "url(" + imageUrl + ") ")
+        .css('background-repeat' , 'no-repeat')
+        .css("background-size","cover");
+        // 이미지 바뀔때 페이드인 되면서 바뀌기
+    }); 
+
+    // $(".banner_w").mouseover(function(){
+    //     // $(".slide_box").clearInterval(moving);
+    //     console.log("호버");
+    // })
+    // $(".slidebanner_w_box").mouseleave(function(){
+    //     $(".slide_box").moving;
+    //     // console.log("호버");
+    // })
+
 
 
 
 });
+
 
 
 

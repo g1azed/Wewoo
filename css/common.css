@@ -6,13 +6,12 @@ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, '
 *{
     font-family: Pretendard;
     margin:0; padding:0;
-    max-width: 1920px;
     margin:0 0 ;
 
 }
 html{
     max-width: 1920px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body{
     max-width: 1920px;
@@ -24,7 +23,7 @@ body{
     width: 1920px; height: 1080px;
     display: block;
 
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .top_padding{

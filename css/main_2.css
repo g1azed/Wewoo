@@ -59,6 +59,8 @@
 .box6_h2{
     margin-top: 60px;
     margin-left: 60px;
+}
+.box6_h2 h2{
     font-size: 62px;
 }
 .box6_box p{
@@ -93,7 +95,7 @@
     width: 1920px; height: 1080px;
 }
 #box7_top{
-    height: 530px;
+    height: 540px;
     background-color: black;
     color: white;
 }
@@ -109,21 +111,47 @@
     float: left;
 
     font-size: 60px;
+    font-weight: 300;
 }
 #top_7_line{
     width: 200px; height: 1.5px;
     background-color: white;
 
-    margin-top: 110px;
-    margin-left: 860px;
+    margin-top: 135px;
+    margin-left: 865px;
 }
 #top_7_text2{
     margin-right: 200px;
     margin-top: 100px;
     float: right;
     font-size: 60px;
+    font-weight: 300;
 }
 
+
+#box7_bottom{
+    height: 540px;
+}
 #box7_btm_left{
-    
+    display: inline-block;
+    margin-top: 160px;
+    margin-left: 200px;
+    width: 500px;
+    margin: 160px 0 0 200px ;
+}
+#box7_btm_left h2{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#box7_btm_left p{
+    font-size: 60px;
+}
+#box7_btm_right{
+    float: right;
+    margin-right: 200px;
+    margin-top: 246px;
+}
+#box7_btm_right p{
+    font-size: 20px;
 }
