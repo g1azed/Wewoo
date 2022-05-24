@@ -155,3 +155,63 @@
 #box7_btm_right p{
     font-size: 20px;
 }
+#logo_wrap{
+    height: 1080px;
+    background-image: url(./img/background/logo_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
+#logo_text{
+    /* display: inline; */
+    margin: 0 auto;
+    padding-top: 150px;
+
+    width: 750px; height: auto;
+}
+#logo_text h2{
+    font-size: 24px;
+
+}
+#logo_text p{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#logo_wrap #logo_1st{
+    position: absolute;
+    left: 408px; top: 493px;
+}
+#logo_wrap #logo_1st img{
+    width: 258px; height: auto;
+}
+
+#logo_2st{
+    /* float: right; */
+    display: inline;
+    position: absolute;
+    left: 1090px;  top: 495px;
+}
+#logo_2st img{
+    width: 120px; height: 120px;
+}
+#logo_2st p{
+    font-size: 64px;
+    display: inline-flex;
+}
+
+#logo_3st{
+    /* float: right; */
+    display: inline-flex;
+    position: absolute;
+    left: 1090px; top: 680px;
+}
+#logo_3st img{
+    width: 120px; height: 120px;
+}
+#logo_3st p{
+    font-size: 64px;
+}
+
+/*section 8*/
