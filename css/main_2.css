@@ -1,49 +1,4 @@
-/* section 5 */
 
-#box5_wrap{
-    background-color: #f0f0f0;
-}
-#box5{
-    text-align: center;
-    width: 1520px;
-    margin-left: 200px; margin-right:200px;
-}
-#box5 h2{
-    font-size: 60px;
-    font-weight: 300;
-}
-
-#what{
-    position: relative;
-    height: 595px;
-    margin-top:43px;
-}
-.w_img{
-    width : 380px; height: 220px;
-}
-.w_center_img{
-    width: 506px; height: 265px;
-    position: absolute;
-    top: 180px; left: 500px;
-}
-.w_img_1{
-    position: absolute;
-    left: 1px;
-}
-.w_img_2{
-    position: absolute;
-    right: 1px;
-}
-.w_img_3{
-    position: absolute;
-    left: 1px;
-    bottom: 1px;
-}
-.w_img_4{
-    position: absolute;
-    right: 1px;
-    bottom: 1px;
-}
 
 
 /* section 6 */
@@ -55,6 +10,7 @@
     /* border: 1px solid black; */
     color: white;
     /* background-color: #ccc; */
+
 }
 .box6_h2{
     margin-top: 60px;
@@ -92,7 +48,8 @@
 
 /*section 7*/
 #box7{
-    width: 1920px; height: 1080px;
+    width: 1920px; 
+    /* margin-bottom: 1000px; */
 }
 #box7_top{
     height: 540px;
@@ -129,32 +86,104 @@
 }
 
 
+
 #box7_bottom{
     height: 540px;
+    color: black;
 }
-#box7_btm_left{
-    display: inline-block;
-    margin-top: 160px;
-    margin-left: 200px;
-    width: 500px;
-    margin: 160px 0 0 200px ;
-}
-#box7_btm_left h2{
+#box7_bottom h3{
+    display: block;
+    text-align: center;
+    padding-top: 120px;
     font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 20px;
 }
-#box7_btm_left p{
+#bottom_7_text1{
+    /* margin-left: 200px; */
+    margin-top: 80px;
+
     font-size: 60px;
+    font-weight: 200;
+    text-align: center;
 }
-#box7_btm_right{
-    float: right;
-    margin-right: 200px;
-    margin-top: 246px;
-}
-#box7_btm_right p{
+
+#bottom_7_text2{
+    /* margin-right: 200px; */
+    margin-top: 40px;
     font-size: 20px;
+    font-weight: 300;
+
+    text-align: center;
 }
+
+
+
+
+    /* how_box */
+
+#how_wrap{
+    background-color: #f0f0f0;
+}
+#how{
+    text-align: center;
+    width: 1520px;
+    margin-left: 200px; margin-right:200px;
+}
+#how h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#what{
+    position: relative;
+    height: 595px;
+    margin-top:43px;
+}
+.w_img{
+    width : 380px; height: 220px;
+}
+.w_center_img{
+    width: 506px; height: 265px;
+    position: absolute;
+    top: 180px; left: 500px;
+}
+.w_img_1{
+    position: absolute;
+    left: 1px;
+}
+.w_img_2{
+    position: absolute;
+    right: 1px;
+}
+.w_img_3{
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+.w_img_4{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+
+/*design_BG*/
+#design_bg{
+    width: 1920px; height:400px;
+    background-image: url(./img/background/desgin_bg.png);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+/* section 8*/
+
+#box8{
+    height: 2080px;
+    margin-top: 1080px;
+    position:static;
+}
+
+
 #logo_wrap{
     height: 1080px;
     background-image: url(./img/background/logo_bg.png);
@@ -189,7 +218,7 @@
 
 #logo_2st{
     /* float: right; */
-    display: inline;
+    display: inline-flex;
     position: absolute;
     left: 1090px;  top: 495px;
 }
@@ -197,8 +226,9 @@
     width: 120px; height: 120px;
 }
 #logo_2st p{
-    font-size: 64px;
-    display: inline-flex;
+    font-size: 64px; font-weight: 600;
+    padding-top: 24px;
+    padding-left: 60px;
 }
 
 #logo_3st{
@@ -211,7 +241,43 @@
     width: 120px; height: 120px;
 }
 #logo_3st p{
-    font-size: 64px;
+    font-size: 64px; font-weight: 600;
+    padding-top: 24px;
+    padding-left: 60px;
 }
 
-/*section 8*/
+
+#typo_wrap{
+    width: 1920px; height: 600px;
+
+}
+#typo_wrap #typo_left{
+    margin: 150px 0 0 200px;
+    display: inline-block;
+}
+#typo_wrap h2{
+    font-size: 24px;
+
+}
+#typo_wrap #typo_l_p{
+    font-size: 20px;
+    margin: 210px 0 0 0;
+}
+#typo_wrap #typo_right{
+    float: right;
+    margin: 305px 200px 0 0 ;
+}
+#typo_wrap #typo_right #typo_1{
+    font-size: 42px;
+    font-weight: 400;
+}
+#typo_wrap #typo_right #typo_2{
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#typo_wrap #typo_right #typo_3{
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 30px;
+}

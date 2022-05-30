@@ -20,7 +20,7 @@ body{
 
 .main_box{
 
-    width: 1920px; height: 1080px;
+    width: 1920px; 
     display: block;
 
     /* border: 1px solid #ccc; */
@@ -28,4 +28,34 @@ body{
 
 .top_padding{
     width:1520px; height: 150px;
+}
+
+
+
+
+
+footer{
+    width: 1920px; height: 479px;
+    background-color: #191919;
+    color: white;
+    position: relative;
+}
+#team{
+    font-size: 24px; font-weight: 700; line-height: 24px;
+    position: absolute;
+    top: 150px; left: 200px;
+}
+footer div{
+    position: absolute;
+    top: 250px; left: 200px;
+
+
+}
+.name{
+    font-size: 20px; font-weight: 500; line-height: 20px;
+    display: inline-block;
+    margin-right: 125px;
+}
+.name span{
+    font-size: 14px; font-weight: 500; line-height: 14px;
 }

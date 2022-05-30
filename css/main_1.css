@@ -162,7 +162,7 @@
 }
 .banner_w {
     width: 1920px;
-    height: 500px;
+    height: 250px;
     position: absolute;
     overflow: hidden;
 
@@ -186,14 +186,21 @@
     margin-right: 200px;
 }
 
+#box4_left{
+    float: left;
+    margin-top: 224px;
+}
+#box4_left img{
+    width: 633px; height: auto;
+}
 #box4_right {
-    margin-top: 350px;
+    margin-top: 228px;
     float: right;
 }
 
 #box4_right h3 {
     font-size: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 74px;
 }
 
 #box4_right h5 {
@@ -203,6 +210,6 @@
 
 #box4_right p {
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 182px;
     margin-right: 200px;
 }

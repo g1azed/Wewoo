@@ -1,0 +1,261 @@
+
+
+.main_h2{
+    font-size: 24px; line-height: 24px; font-weight: 700;
+}
+.main_p{
+    font-size: 60px; line-height: 100%; font-weight: 300;
+    margin-top: 80px;     letter-spacing: -0.02em;
+}
+.sub_p{ 
+    font-size: 20px; font-weight: 400; line-height: 100%;
+    margin: 40px 0 0 0 ;
+}
+
+
+/* section 11 */
+#box11{
+    width: 1920px; height: 1505px;
+}
+#box11 #service_design {
+    margin: 150px 0 0 0 ;
+    text-align: center;
+}
+
+/*section 12*/
+#box12{
+    width: 1920px; height: 2690px;
+    background-color: #f1f1f1;
+}
+#home{
+    padding: 150px 0 0 200px;
+}
+
+#home_img{
+    margin-top: 94px;
+    width: 1920px; height: 2400px;
+    background-image:  url(./img/iPhone_Frame.png);
+    background-size: 20.1%;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    position: relative;
+}
+#home_img #home_bg{
+    width: 375px; height: auto;
+    position: absolute;
+    margin-left: 773px; margin-top: 5px;
+}
+#home_img .fit_img{
+    width: 150px; height: auto;
+    position: absolute;
+}
+#home_img .fit_1{
+    left: 783px; top: 330px;
+}
+#home_img .fit_2{
+    left: 933px; top: 330px;
+}
+#home_img .fit_3{
+    left: 1083px; top: 330px;
+}
+#home_img .dona_img{
+    width: 338px;
+    position: absolute;
+    top: 703px; left: 791px;
+}
+#home_img .valun_img{
+    width: 315px; height: 141px;
+    position: absolute;
+}
+#home_img .valun_1{
+    top: 1159px; left: 791px;
+}
+#home_img .valun_2{
+    top: 1159px; left: 1121px;
+}
+#home_img .valun_3{
+    top: 1159px; left: 1451px;
+}
+
+
+/* section 13*/
+#box13{
+    width: 1920px; height: 1080px;
+    background-color: black;
+    color: white;
+
+    text-align:center;
+}
+
+
+/*section 14*/
+#box14{
+    width: 1920px; height: 1080px;
+    position: relative;
+    background-color: #fafafa;
+}
+#prevent_right{
+    width: 633px; height: 812px;
+    margin: 200px 327px 0 0 ;
+    float: right;
+}
+#prevent_r_text{
+    width: 633px; height: 366px;
+    /* margin: 0px 327px 0 0; */
+    float: right;
+
+}
+
+#prevent_left{
+    /* width: 375px; height: 812px;
+    background-image:  url(./img/iPhone_Frame.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    display: inline-block;
+    margin: 134px 0px 134px 451px;
+}
+
+#prevent_left img{
+    width: 375px; height: 812px;
+}
+
+/* section 15 */
+#box15{
+    width: 1920px; height: 1784px;
+}
+#communicate{
+    width: 1920px; height: 1284px;
+    background-image: url(./img/background/communicate2_bg.png);
+    background-size: cover;
+    display: inline-block;
+    background-attachment: fixed;
+
+    position: relative;
+}
+#communicate img{
+    width: 375px; height: 812px;
+    display: inline-block;
+
+    margin: 138px 0 334px 454px;
+}
+#communicate #com_text{
+    display: inline-block;
+    width: 633px; height: 366px;
+    position: absolute;
+    top: 204px; left: 963px;
+}
+
+#rr{
+    width: 1920px; height: 373px;
+    background-color: #191919;
+    color: white;
+    padding-top: 127px;
+    position: relative;
+
+}
+#rr #rr_text{
+    margin: 0 0 200px 453px;
+    display: inline-block;
+}
+#rr img{
+    width: 375px; height: 812px;
+    position:absolute;
+    left: 967px; top: -450px;
+
+}
+
+/* section 16*/
+#box16{
+    width: 1920px; height: 1500px;
+}
+
+#map_radio{
+    text-align: center;
+    margin-top: 200px;
+}
+#map{
+    width: 960px; height: 1080px;
+    background-image: url(./img/background/map_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#map .sub_p{
+    margin-top: 190px;
+}
+#map img{
+    width: 300px; height: 649px;
+    margin: 80px 330px 100px 330px;
+}
+#radio{
+    width: 960px; height: 1080px;
+    background-image: url(./img/background/radio_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+#radio .sub_p{
+    margin-top: 190px;
+}
+#radio img{
+    width: 300px; height: 649px;
+    margin: 80px 330px 100px 330px;
+}
+
+
+
+/* section 17 */
+#box17{
+    width: 1920px; height: 1080px;
+}
+#support{
+    position: relative;
+}
+#support #support_main_img{
+    width: 375px; height: 812px;
+    margin: 134px 0 0 200px;
+}
+#support #support_right{
+    width:  663px; height: 366px;
+    display: inline-block;
+    position: absolute;
+    top: 174px; left: 707px;
+}
+
+#support_img_s {
+    width: 1100px; height: 260px;
+    display: inline-block;
+    position: absolute;
+    top : 636px; left: 707px;
+}
+#support_img_s img{
+    width: 230px; height: 260px;
+    margin-right: 30px;
+}
+
+/* section 18 */
+#box18{
+    width: 1920px; height: 1080px;
+    background-color: #fafafa;
+}
+
+#volunteer{
+    position: relative;
+}
+
+#volunteer #volun_main{
+    width: 375px; height: 812px;
+    position: absolute;
+    top: 134px; left: 451px;
+}
+#volunteer #volunteer_right{
+    position: absolute;
+    top: 200px; left: 960px;
+}
+#volunteer #volunteer_right img{
+    width: 381px; height: 291px;
+    margin-top: 30px;
+    top:655px; left: 960px;
+}
