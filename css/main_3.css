@@ -119,6 +119,7 @@
 #badge_wrap{
     width: 1920px; height: 785px;
     background-color: #f9f9f9;
+    position: relative;
 }
 #badge_wrap #badge{
     padding: 150px 0 0 200px;
@@ -139,7 +140,8 @@
 #badge_wrap #badge_img_wrap{
     display: inline-block;
     /* float: right; */
-    margin: 280px 200px 0 0 ;
+    margin: 100px 140px 227px 144px ;
+    position: relative;
 }
 #badge_wrap #badge_img_wrap img{
     width: 103px; height: auto;
@@ -151,11 +153,16 @@
 #badge_wrap #badge_img_wrap #badge_m{
     margin: 0 36px 0 0;
 }
+#badge_img_wrapper{
+    display: inline-block;
+}
 #badge_wrap #badge_text{
     display: inline-block;
     font-size: 24px; line-height: 36px; font-weight: 700;
-    /* top: 522px; left: 1202px; */
+    top: 230px; left: 350px;
     /* text-align: center; */
+    position: absolute;
+
 }
 
 #icon_wrap{

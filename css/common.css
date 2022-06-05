@@ -7,6 +7,7 @@ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, '
     font-family: Pretendard;
     margin:0; padding:0;
     margin:0 0 ;
+    box-sizing: border-box;
 
 }
 html{
@@ -58,4 +59,26 @@ footer div{
 }
 .name span{
     font-size: 14px; font-weight: 500; line-height: 14px;
+}
+
+p{
+    font-size: 20px; letter-spacing :-0.2%;
+    font-weight: 400;  line-height: 30px;
+}
+h3{
+    font-size: 60px; letter-spacing :-2%;
+    font-weight: 400;  line-height: 60px;
+}
+
+/* 애니메이션 */
+
+@keyframes sliding{
+    from{  
+        bottom: 0;
+        opacity: 0;
+    }
+    to{
+        bottom: 100%;
+        opacity: 100%;
+    }
 }

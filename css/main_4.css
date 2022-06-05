@@ -45,19 +45,24 @@
     width: 375px; height: auto;
     position: absolute;
     margin-left: 773px; margin-top: 5px;
+    z-index: 0;
 }
 #home_img .fit_img{
-    width: 150px; height: auto;
+    width: auto; height: 100px;
     position: absolute;
+    z-index:1;
 }
 #home_img .fit_1{
-    left: 783px; top: 330px;
+    left: 793px; top: 330px;
 }
 #home_img .fit_2{
-    left: 933px; top: 330px;
+    left: 958px; top: 330px;
 }
 #home_img .fit_3{
-    left: 1083px; top: 330px;
+    left: 793px;  top: 445px;
+}
+#home_img .fit_4{
+    left: 1008px; top: 445px;
 }
 #home_img .dona_img{
     width: 338px;
@@ -67,6 +72,7 @@
 #home_img .valun_img{
     width: 315px; height: 141px;
     position: absolute;
+    z-index:1;
 }
 #home_img .valun_1{
     top: 1159px; left: 791px;
@@ -78,7 +84,67 @@
     top: 1159px; left: 1451px;
 }
 
+#home_text_wrap{
+    position: relative;
+}
+#home_text_wrap #home_dot img{
+    width: auto; height: 14px;
+    position: absolute;
+    z-index: 0;
+}
+#home_text_wrap #home_dot img:nth-child(1){
+    top: 370px; left: 1150px;
+}
+#home_text_wrap #home_dot img:nth-child(2){
+    top: 690px; left: 550px;
+    transform:rotate(180deg);
+}
+#home_text_wrap #home_dot img:nth-child(3){
+    top: 1170px; left: 1150px;
+    transform:rotate(270deg);
+}
+#home_text_wrap #home_dot img:nth-child(4){
+    top: 1380px; left: 550px;
+    transform:rotate(180deg);
+}
 
+#home_text_wrap #home_text .home_t_div{
+    position: absolute;
+}
+#home_text_wrap #home_text #home_t_1{
+    top: 310px; left: 1450px;
+}
+#home_text_wrap #home_text #home_t_2{
+    top: 600px; left: 170px;
+    text-align: right;
+}
+#home_text_wrap #home_text #home_t_3{
+    top: 830px; left: 1265px;
+}
+#home_text_wrap #home_text #home_t_4{
+    top: 1280px; left: 170px;
+    text-align: right;
+}
+
+#home_text_wrap #home_text .home_t_div .h_t_num{
+    font-size: 20px; font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -2%; 
+}
+#home_text_wrap #home_text .home_t_div .h_t_title{
+    font-size: 32px; font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -3%;
+    margin: 30px 0 20px 0; 
+}
+#home_text_wrap #home_text #home_t_2 .h_t_num_center{
+    text-align: center;
+    margin-right: 20px;
+}
+#home_text_wrap #home_text #home_t_4 .h_t_num_center{
+    text-align: center;
+    margin-right: 20px;
+}
 /* section 13*/
 #box13{
     width: 1920px; height: 1080px;
@@ -259,3 +325,13 @@
     margin-top: 30px;
     top:655px; left: 960px;
 }
+
+
+/* section 19*/
+#box19{
+    width: 1920px; height: 100%;
+}
+#box19 img{
+    width: 1920px;
+}
+
