@@ -122,12 +122,12 @@
     position: relative;
 }
 #badge_wrap #badge{
-    padding: 150px 0 0 200px;
+    float: right;
+    padding: 150px 200px 0 0 ;
     display: inline-block;
 }
 #badge_wrap #badge h2{
     font-size: 24px; line-height: 24px; font-weight: 700;
-
 }
 #badge_wrap #badge #badge_p{
     font-size: 42px; line-height: 42px; font-weight: 300;
@@ -137,21 +137,23 @@
     font-size: 20px; line-height: 30px; font-weight: 400;
     margin-top: 80px;
 }
+
 #badge_wrap #badge_img_wrap{
+    /* width:878px; height:270px; */
     display: inline-block;
     /* float: right; */
-    margin: 100px 140px 227px 144px ;
+    margin: 279px 0 236px 200px;
     position: relative;
 }
 #badge_wrap #badge_img_wrap img{
-    width: 103px; height: auto;
+    width: 120px; height: auto;
 }
 #badge_wrap #badge_img_wrap #badge_main{
     width: 240px; height: auto;
-    margin: 0 70px 0 70px;
+    margin: 0 60px 0 60px;
 }
-#badge_wrap #badge_img_wrap #badge_m{
-    margin: 0 36px 0 0;
+#badge_wrap #badge_img_wrap .badge_m{
+    margin: 0 0 0 20px;
 }
 #badge_img_wrapper{
     display: inline-block;
@@ -166,10 +168,11 @@
 }
 
 #icon_wrap{
-    width: 1920px; height: 680px;
-}
-#icon_wrap h2{
-    font-size: 24px; line-height: 24px; font-weight: 700;
+    width: 1920px; height: 1080px;
 }
 
+
+#icon_wrap #icon_right #icon_bg{
+
+}
 

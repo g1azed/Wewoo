@@ -115,13 +115,22 @@
     text-align: center;
 }
 
-
+    /* movie */
+#box7 #movie{
+    width: 1920px; height: 1080px;
+    /* border: 1px solid black; */
+    /* margin-bottom: 1500px; */
+}
+#box7 #movie iframe{
+    margin-left: 100px;
+}
 
 
     /* how_box */
 
 #how_wrap{
     background-color: #f0f0f0;
+    display: absolute;
 }
 #how{
     text-align: center;
@@ -166,20 +175,13 @@
 }
 
 
-/*design_BG*/
-#design_bg{
-    width: 1920px; height:400px;
-    background-image: url(./img/background/desgin_bg.png);
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
-}
+
 
 /* section 8*/
 
 #box8{
     height: 2080px;
-    margin-top: 1080px;
+    margin-top: 2160px;
     position:static;
 }
 
