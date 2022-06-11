@@ -28,7 +28,6 @@ $(document).ready(function () {
     var last;
     var imgCnt = 0;
     var $img = $(".slide_box img");
-    var $img2 = $(".slide_box img");
     var $first;
     var $last;
 

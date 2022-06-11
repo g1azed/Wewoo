@@ -21,23 +21,33 @@
 }
 
 #box1_logo img {
-    width: 84px;
-    height: 84px;
+    width: 72px;
+    height: 72px;
 }
-
 #box1_logo_text {
     display: block;
     width: 500px;
 }
 #box1_logo_text h2 {
-    font-size: 85px;
+    margin-top: 50px;
+    font-size: 72px;
     display: inline-block;
-    font-weight: 800;
+    font-weight: 600;
+    line-height: 100%; letter-spacing: -2%;
 }
 #box1_logo_text h4 {
-    font-size: 36px;
-    font-weight: 500;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px; letter-spacing: -2%;
 }
+#box1_logo_text p{
+    color: #ccc;
+    font-weight: 400; 
+    font-size: 24px;
+    line-height: 24px; letter-spacing: -2%;
+}
+
 
 #mockup {
     float: right;
@@ -67,11 +77,14 @@
 }
 #box2_left h5 {
     font-size: 24px;
+    font-weight: 700; line-height: 100%; letter-spacing: 0.02em;
     margin-bottom: 50px;
+    
 }
 #box2_left h3 {
     font-size: 60px;
     font-weight: 300;
+    line-height: 75px; letter-spacing: 0.02em;
 }
 #box2_left p {
     font-size: 20px;
@@ -92,7 +105,7 @@
     color: white;
     text-align: justify; line-height: 150%;
     display: inline;
-
+    filter: drop-shadow(0 15px 15px rgba(0,0,0,0.15));
 
     position: absolute;
 }
@@ -149,6 +162,7 @@
 #box3_top_left h3 {
     font-size: 60px;
     font-weight: 300;
+    line-height: 80px;
 }
 
 #box3_top_right {
@@ -235,10 +249,10 @@
 #box4_right h3 {
     font-size: 60px;
     font-weight: 300;
+    line-height: 70px;
 }
 
 #box4_right p {
     font-size: 20px;
-    margin-top: 182px;
-    margin-right: 200px;
+    margin-top: 150px;
 }

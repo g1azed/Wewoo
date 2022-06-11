@@ -69,13 +69,14 @@
 
     font-size: 60px;
     font-weight: 300;
+    letter-spacing: -3%;
 }
 #top_7_line{
     width: 200px; height: 1.5px;
     background-color: white;
 
     margin-top: 135px;
-    margin-left: 865px;
+    margin-left: 870px;
 }
 #top_7_text2{
     margin-right: 200px;
@@ -83,6 +84,7 @@
     float: right;
     font-size: 60px;
     font-weight: 300;
+    letter-spacing: -3%;
 }
 
 
@@ -99,7 +101,7 @@
 }
 #bottom_7_text1{
     /* margin-left: 200px; */
-    margin-top: 80px;
+    margin-top: 75px;
 
     font-size: 60px;
     font-weight: 200;
@@ -108,28 +110,30 @@
 
 #bottom_7_text2{
     /* margin-right: 200px; */
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 20px;
     font-weight: 300;
-
+    letter-spacing: -2%;
     text-align: center;
 }
 
     /* movie */
 #box7 #movie{
     width: 1920px; height: 1080px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     /* margin-bottom: 1500px; */
 }
 #box7 #movie iframe{
-    margin-left: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 
     /* how_box */
 
 #how_wrap{
-    background-color: #f0f0f0;
+    background-image: url("./img/background/how_bg.png");
+    background-size: cover;
     display: absolute;
 }
 #how{
@@ -149,6 +153,7 @@
 }
 .w_img{
     width : 380px; height: 220px;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0, 0.15));
 }
 .w_center_img{
     width: 506px; height: 265px;
@@ -226,6 +231,7 @@
 }
 #logo_2st img{
     width: 120px; height: 120px;
+    filter: drop-shadow(0 15px 15px rgba(0,0,0,0.15));
 }
 #logo_2st p{
     font-size: 64px; font-weight: 600;
@@ -241,6 +247,7 @@
 }
 #logo_3st img{
     width: 120px; height: 120px;
+    filter: drop-shadow(0 15px 15px rgba(0,0,0,0.15));
 }
 #logo_3st p{
     font-size: 64px; font-weight: 600;
@@ -264,6 +271,7 @@
 #typo_wrap #typo_l_p{
     font-size: 20px;
     margin: 210px 0 0 0;
+    line-height: 30px; letter-spacing: -2%;
 }
 #typo_wrap #typo_right{
     float: right;
@@ -272,14 +280,24 @@
 #typo_wrap #typo_right #typo_1{
     font-size: 42px;
     font-weight: 400;
+    line-height: 95%; letter-spacing: -3%;
 }
+
 #typo_wrap #typo_right #typo_2{
     font-size: 42px;
     font-weight: 500;
     margin-top: 30px;
+    line-height: 95%; letter-spacing: -3%;
 }
 #typo_wrap #typo_right #typo_3{
     font-size: 42px;
     font-weight: 600;
     margin-top: 30px;
+    line-height: 95%; letter-spacing: -3%;
+}
+#typo_wrap #typo_right .typo_r span{
+    font-size: 20px; 
+    color: #ccc;
+    line-height: 95%; letter-spacing: -3%;
+    margin-left: 50px;
 }
