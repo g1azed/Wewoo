@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     $img.each(function () {   // 5px 간격으로 배너 처음 위치 시킴
         $(this).css("left", bannerLeft);
-        bannerLeft += $(this).width() + 5;
+        bannerLeft += $(this).width() + 50;
         $(this).attr("id", "banner" + (++imgCnt));  // img에 id 속성 추가
     });
 
@@ -45,8 +45,8 @@ $(document).ready(function () {
             });
             $first = $("#banner" + first);
             $last = $("#banner" + last);
-            if ($first.position().left < -500) {    // 제일 앞에 배너 제일 뒤로 옮김
-                $first.css("left", $last.position().left + $last.width() + 5);
+            if ($first.position().left < -200) {    // 제일 앞에 배너 제일 뒤로 옮김
+                $first.css("left", $last.position().left + $last.width() + 50);
                 first++;
                 last++;
                 if (last > imgCnt) { last = 1; }
@@ -63,6 +63,7 @@ $(document).ready(function () {
         //깔끔하게 변경가능하다           
 
     }
+    $("#banner").css("margin","0 50px 0 0");
 
     $(".s_box1").click(function () {
         var imageUrl = "./css/img/background/main_3_bg.png";
@@ -86,24 +87,31 @@ $(document).ready(function () {
             .css("background-opacity", "0")
             .fadeIn(1000, this)
         // .animate({opacity:"1"}, 3000);
-
+        $(".s_box1").click
 
         // 이미지 바뀔때 페이드인 되면서 바뀌기
     });
 
-    // test.animate({
-    //     opacity: "1"
-    // }, 1000);
-    // $('.testbt2').click(function(){
-    //     $('#testEle').animate({opacity:"1"}, 1000);
-    //   });
+    // function randombg(){
+    //     var random= Math.floor(Math.random() * 6) + 0;
+    //     var bigSize = [ "url('')",
+    //                     "url('https://')",
+    //                     "url('https://')",
+    //                     "url('https://')",
+    //                     "url('https://')",
+    //                    "url('https://')"];
+    //     document.getElementById("bodybody").style.backgroundImage=bigSize[random];
+    // }
+    // setTimeout(function() {
+    //     randombg()
+    // }, 300);
 
 
-/* 아이콘 */ 
 
 
 });
 
+    // 출처: https://ssamlee.tistory.com/13 [쌈리군's life story:티스토리]
 
 
 

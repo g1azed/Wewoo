@@ -52,10 +52,10 @@
 
         <ul>
             <li> <img src="./css/img/logo/header_LOGO.png"> </li>
-            <li class="header_li"> PLANNING </li>
-            <li class="header_li"> VIDEO</li>
-            <li class="header_li"> DESIGN </li>
-            <li class="header_li"> SERVICE</li>
+            <li class="header_li" id="planning"> <a href="#"> PLANNING</a> </li>
+            <li class="header_li" id="video"> <a href="#"> VIDEO </a>  </li>
+            <li class="header_li" id="design"> <a href="#">DESIGN  </a></li>
+            <li class="header_li" id="service"> <a href="#">SERVICE </a></li>
         </ul>
     </header>
 
@@ -191,7 +191,7 @@
                     <h2> Countract </h2>
                     <h2> Disaster </h2>
                 </div>
-                <p> 당신의 재난에 대응하고 </p>
+                <p> 당신의 재난에 대응함으로써 </p>
             </div>
 
             <div class="box6_box" id="box6_4st">
@@ -199,7 +199,7 @@
                     <h2> Donation </h2>
                     <h2> &Valunteer </h2>
                 </div>
-                <p> 쉽게 도움을 줄 수 있는 </p>
+                <p> 돕고 돕는 사회를 만드는 </p>
             </div>
         </section> <!-- main box 6-->
 
@@ -209,7 +209,7 @@
             <div id="box7_top">
                 <h3 > OUR MISSION </h3>
                 <h4 id="top_7_text1"> <b> 사용자 맞춤 정보</b>를 제공해 </h4>
-                <h4 id="top_7_text2"> <b> 일상 속 재난</b>을 예방하는 </h4>
+                <h4 id="top_7_text2"> <b> 일상 속의 재난</b>을 예방하는 </h4>
                 <div id="top_7_line"> </div>
             </div>
 
@@ -225,7 +225,7 @@
             
             <!--  width="640" height="360" -->
             <div id="movie">  
-                <iframe src="https://player.vimeo.com/video/719908455?h=b0f00bd78b" width="1720" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/719908455?h=b0f00bd78b" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 <!-- <p><a href="https://vimeo.com/719908455">우리는 위용위용입니다</a> from <a href="https://vimeo.com/user178259639">위용위용</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
             </div>
 
@@ -262,7 +262,7 @@
                         빛처럼 빠르게 대응하겠다는 메시지를 담은 로고를 제작하였습니다.</p>
                 </div>
 
-                <div id="logo_1st" data-aos="fade-up" data-aos-duration="1300">
+                <div id="logo_1st">
                     <img src="./css/img/logo/logo_3.png">
                 </div>
                 <div id="logo_2st" >
@@ -373,8 +373,7 @@
                     </p>
                 </div>
                 <div id="icon_right"> 
-                    <img id="icon_bg" src="./css/img/icon_bg.png">
-                    <img id="icon_main" src="./css/img/icon_main.png">
+                    <video  width="390px" height="390px" loop autoplay playsinline style="border-radius: 30px;"> <source src="./css/img/video/icon_movie.mp4"></video>
                 </div>
 
                 <div id="icon_slide">
@@ -417,28 +416,35 @@
         <section class="main_box" id="box11">
 
             <div id="service_design">
-                <h2 class="main_h2"> SERVICE DESIGN </h2>
+                <h2 class="main_h2"> SERVICE </h2>
                 <p class="main_p">
                     안녕하세요, 위용위용님 <br />
                     <b> 당신에 대해 알려주시겠어요? </b>
                 </p>
                 <p class="sub_p"> 가입 시에 간단한 관심설정을 통해 사용자 관심 설정을 할 수 있어요. </p>
             </div>
-            <div id="service_motion"> </div>
+            <div id="service_motion"> 
+                <div id="service_img_wrap">
+                    <img class="service_img" src="./css/img/service_1.png">
+                    <img class="service_img" src="./css/img/service_2.png">
+                    <img id="service_main" src="./css/img/service_main.png">
+                    <img class="service_img" src="./css/img/service_3.png">
+                    <img class="service_img" src="./css/img/service_4.png">
+                </div>
+            </div>
 
 
         </section>
 
         <section class="main_box" id="box12">
             <div id="home" >
-                <h2 class="main_h2"> HOME </h2>
+                <h2 class="main_h2"> MY WEWOO </h2>
                 <p class="main_p">
                     당신에게 필요한 <br />
-                    <b> 재난 맞춤 정보</b>를 제공해요
+                    <b> 재난 맞춤 정보를 제공해요</b>
                 </p>
                 <p class="sub_p">
-                    가입 시에 간단한 관심설정을 통해 사용자 관심 설정을 할 수 있어요. <br />
-                    한 눈에 관심 있는 카테고리를 확인할 수 있어요.</p>
+                    마이위용에서는 당신에게 꼭! 필요한 정보를 우선적으로 볼 수 있어요</p>
             </div>
             <div id="home_img" >
                 <img id="home_bg" src="./css/img/background/mywewoo_bg3.png">
@@ -452,7 +458,7 @@
 
                 <img class="valun_img valun_1" src="./css/img/value_11.png" data-aos="fade-up" data-aos-duration="1300">
                 <img class="valun_img valun_2" src="./css/img/value_22.png" data-aos="fade-up" data-aos-duration="1300">
-                <img class="valun_img valun_3" src="./css/img/value_11.png" data-aos="fade-up" data-aos-duration="1300">
+                <img class="valun_img valun_3" src="./css/img/value_33.png" data-aos="fade-up" data-aos-duration="1300">
 
 
                 <div id="home_text_wrap">
@@ -496,7 +502,7 @@
 
         <section class="main_box" id="box13">
             <div id="popup_l_text">
-                <h2 class="main_h2"> POPUP & CHATTING  </h2>
+                <h2 class="main_h2"> POPUP </h2>
                 <p class="main_p">
                     멀리 있어도 걱정 끝! <br />
                     <b> 이웃의 안부를 확인해요</b>
@@ -506,9 +512,9 @@
                     이웃에게 메시지를 보내 안부를 확인하고, 유용한 정보가 있다면 전해 주세요.
                 </p>
             </div>
-            <div id="popup_r">
+            <!-- <div id="popup_r">
                 <img src="./css/img/popup_img.png">
-            </div>
+            </div> -->
         </section>
 
         <section class="main_box" id="box14">
@@ -552,8 +558,7 @@
 
         <section class="main_box" id="box15">
             <div id="communicate">
-                <img src="./css/img/communicate_img.png">
-
+                <video width="375px" height="812px" loop autoplay playsinline style="border-radius: 30px;" data-aos="fade-up" data-aos-duration="1300"> <source src="./css/img/video/commnicate_1.mp4"></video>
                 <div id="com_text">
                     <h2 class="main_h2"> COMMUNICATE </h2>
                     <p class="main_p">
@@ -570,14 +575,14 @@
 
             <div id="rr">
                 <div id="rr_text">
-                    <h2 class="main_h2"> REPORT& <br /> RECOMMEND </h2>
+                    <h2 class="main_h2"> REPORT & <br /> RECOMMEND </h2>
                     <p class="sub_p">
                         신뢰할 수 없는 정보는 신고하고, <br />
                         유용한 정보는 추천함으로써 각 회원과 <br />
                         정보의 신뢰도를 쉽게 구분할 수 있어요.
                     </p>
                 </div>
-                <img src="./css/img/commnuicate_33.png">
+                <video width="375px" height="812px" loop autoplay playsinline style="border-radius: 30px;" data-aos="fade-up" data-aos-duration="1300"> <source src="./css/img/video/communicate_2.mp4"></video>
             </div>
 
         </section>
@@ -595,14 +600,14 @@
                         재난 대피 시설과 이웃의 위치, <br />
                         실시간 재난 현황을 확인할 수 있어요
                     </p>
-                    <img src="./css/img/map_33.png">
+                    <video data-aos="fade-up" data-aos-duration="1300" id="map_video" width="300px" height="649px" loop autoplay playsinline style="border-radius: 30px;"> <source src="./css/img/video/map.mp4"></video>
                 </div>
                 <div id="radio" >
                     <p class="sub_p">
                         통신망이 두절되어도 <br />
                         라디오 재난 방송을 청취할 수 있어요
                     </p>
-                    <img src="./css/img/radio.png">
+                    <video data-aos="fade-up" data-aos-duration="1300" id="map_radio" width="300px" height="649px" loop autoplay playsinline style="border-radius: 30px;"> <source src="./css/img/video/radio.mp4"></video>
                 </div>
             </div>
         </section>
@@ -610,7 +615,7 @@
         <section class="main_box" id="box17">
 
             <div id="support">
-                <img id="support_main_img" src="./css/img/support_main2.png">
+                <img data-aos="fade-up" data-aos-duration="1300" id="support_main_img" src="./css/img/support_main2.png">
 
                 <div id="support_right">
                     <h2 class="main_h2"> SUPPORT </h2>
@@ -625,10 +630,10 @@
                 </div>
 
                 <div id="support_img_s">
-                    <img src="./css/img/support_sub_11.png">
-                    <img src="./css/img/support_sub_22.png">
-                    <img src="./css/img/support_sub_11.png">
-                    <img src="./css/img/support_sub_22.png">
+                    <img data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100" src="./css/img/support_sub_11.png">
+                    <img data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200" src="./css/img/support_sub_22.png">
+                    <img data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" src="./css/img/support_sub_33.png">
+                    <img data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400" src="./css/img/support_sub_44.png">
                 </div>
 
             </div>
@@ -644,16 +649,16 @@
                         간단한 터치와 서비스 내 결제를 통해 쉽게 후원해 보세요.
                     </p>
                 </div>
-                <div id="donate_bottom">
+                <div id="donate_bottom" data-aos="fade-up" data-aos-duration="1300">
                     <div class="donate_btm" id="don_1">
                         <p>후원금 기부 </p>
                         <img src="./css/img/donate_sub_1.png">
                     </div>
-                    <div class="donate_btm" id="don_2">
+                    <div class="donate_btm" id="don_2" data-aos="fade-up" data-aos-duration="1300">
                         <p>구호물품 결제</p>
                         <img src="./css/img/donate_sub_2.png">
                     </div>
-                    <div class="donate_btm" id="don_3">
+                    <div class="donate_btm" id="don_3" data-aos="fade-up" data-aos-duration="1300">
                         <p> 구호물품 배송 </p>
                         <img src="./css/img/donate_sub_3.png">
                     </div>
@@ -675,7 +680,7 @@
                         분야와 일정을 확인한 뒤 봉사 활동을 신청하면 <br />
                         기관과 직접 연락할 수 있어요.
                     </p>
-                    <img src="./css/img/volunteer_plan.png">
+                    <img data-aos="fade-up" data-aos-duration="1300" src="./css/img/volunteer_plan.png">
                 </div>
             </div>
 

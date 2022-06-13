@@ -76,7 +76,22 @@ header ul .header_li{
     margin: 0 50px 25px 0;
     
 }
-
+header ul .header_li a{
+    text-decoration: none;
+    color: white;
+}
+header ul .header_li a:active{
+    text-decoration: none;
+    color: white;
+}
+header ul .header_li a:visited{
+    text-decoration: none;
+    color: white;
+}
+header ul .header_li a:hover{
+    text-decoration: none;
+    color: #666;
+}
 a{text-decoration:none}
 .content_wrap>div{height:1500px}
 div.content{width:1400px;margin:0 auto}

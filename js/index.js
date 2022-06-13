@@ -1,11 +1,19 @@
 // new WOW().init();
-// $("#scrollTop").click(function(){
-//     console.log("click");
-//     $("html, body").animate({scrollTop: 0}, 700 );
-// } );
-
 AOS.init();
 
+$("#planning").click(function(){
+    console.log("click");
+    $("html, body").animate({scrollTop: 0}, 700 );
+} );
+$("#video").click(function(){
+    $("html, body").animate({scrollTop: "6336px"}, 700 );
+} );
+$("#design").click(function(){
+    $("html, body").animate({scrollTop: "9043px"}, 700 );
+} );
+$("#service").click(function(){
+    $("html, body").animate({scrollTop: "14480px"}, 700 );
+} );
 var lastScrollTop = 0;
 
 $(window).scroll(function () {
@@ -28,10 +36,10 @@ $(window).scroll(function () {
     }
 
     if (scrollTop >= 1000) {
-        $("header").css("backgroundcolor", "white");
-        $(".header_li").css("color", "black");
+        $("header").css("background-color", "black");
+        $(".header_li").css("color", "white");
     } else {
-        $("header").css("backgroundcolor", "transparent");
+        $("header").css("background-color", "transparent");
         $(".header_li").css("color", "white");
     }
 

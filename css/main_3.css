@@ -12,8 +12,8 @@
     line-height: 24px; letter-spacing: 2%;
     display: inline-block;
     /* padding-bottom: 20px; */
-    position: absolute;
-    top:0;
+    position: relative;
+    top: -24px;
 }
 #box9 #cr_p{
     font-size: 20px;
@@ -186,7 +186,7 @@
     position: relative;
     left: 765px; top: -150px;
 }
-#icon_wrap #icon_right #icon_bg{
+#icon_wrap #icon_right video{
     width: 390px; height: 390px;
     position: absolute;
 
@@ -201,7 +201,7 @@
     width: 100%;  height: 148px;
     display:inline-block;
     position: absolute;
-    top: 13350px; left: 0;
+    top: 13380px; left: 0;
     overflow: hidden;
 
 }
