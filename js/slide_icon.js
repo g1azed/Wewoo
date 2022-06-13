@@ -4,11 +4,10 @@ window.onload = function () {
     var $first; var $last; $img.each(function () {
         // 5px 간격으로 배너 처음 위치 시킴                
         $(this).css("left", bannerLeft);
-        bannerLeft += $(this).width() + 10;
+        bannerLeft += $(this).width() + 5;
         $(this).attr("id", "banner" + (++imgCnt));  // img에 id 속성 추가    
     });
-    if (imgCnt > 2) {
-        //배너 9개 이상이면 이동시킴     
+    if (imgCnt > 2) {   
         last = imgCnt;
         setInterval(function () {
             $img.each(function () {
@@ -19,10 +18,10 @@ window.onload = function () {
             $last = $("#banner" + last);
             if ($first.position().left < -200) {
                 // 제일 앞에 배너 제일 뒤로 옮김                        
-                $first.css("left", $last.position().left + $last.width() + 10);
+                $first.css("left", $last.position().left + $last.width() + 5);
                 first++; last++; if (last > imgCnt) { last = 1; } if (first > imgCnt) { first = 1; }
             }
-        }, 50);
+        }, 30);
         //여기 값을 조정하면 속도를 조정할 수 있다.(위에 1px 이동하는 부분도 조정하면 //깔끔하게 변경가능하다           
     }
 };
