@@ -1,5 +1,8 @@
 // new WOW().init();
-
+// $("#scrollTop").click(function(){
+//     console.log("click");
+//     $("html, body").animate({scrollTop: 0}, 700 );
+// } );
 
 AOS.init();
 
