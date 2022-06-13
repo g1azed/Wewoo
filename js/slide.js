@@ -87,7 +87,6 @@ $(document).ready(function () {
             .css("background-opacity", "0")
             .fadeIn(1000, this)
         // .animate({opacity:"1"}, 3000);
-        $(".s_box1").click
 
         // 이미지 바뀔때 페이드인 되면서 바뀌기
     });
