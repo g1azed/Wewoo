@@ -78,7 +78,7 @@ header ul .header_li{
 }
 header ul .header_li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 header ul .header_li a:active{
     text-decoration: none;

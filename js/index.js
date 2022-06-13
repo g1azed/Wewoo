@@ -36,11 +36,15 @@ $(window).scroll(function () {
     }
 
     if (scrollTop >= 1000) {
-        $("header").css("background-color", "black");
-        $(".header_li").css("color", "white");
+        $("header").css("background-color", "white")
+        .css("border-bottom","2px solid #eee");
+        $(".header_li a:visited").css("color", "black");
+        $(".header_li a").css("color", "black");
     } else {
-        $("header").css("background-color", "transparent");
-        $(".header_li").css("color", "white");
+        $("header").css("background-color", "black");
+        $(".header_li a:visited").css("color", "white");
+        $(".header_li a").css("color", "white");
+
     }
 
     // $(".content").each(function () {
