@@ -141,8 +141,8 @@
 #box3_wrap {
     width: 1920px;
     /* background-color: black; */
-    background-image: url("../css/img/background/fire.png");
-    background-repeat: no-repeat; background-size: 100%;
+    background-image: url("../css/img/background/fire_bg.png");
+    background-repeat: no-repeat; background-size: cover;
 
 
 }

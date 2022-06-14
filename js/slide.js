@@ -45,7 +45,7 @@ $(document).ready(function () {
             });
             $first = $("#banner" + first);
             $last = $("#banner" + last);
-            if ($first.position().left < -200) {    // 제일 앞에 배너 제일 뒤로 옮김
+            if ($first.position().left < -400) {    // 제일 앞에 배너 제일 뒤로 옮김
                 $first.css("left", $last.position().left + $last.width() + 50);
                 first++;
                 last++;
