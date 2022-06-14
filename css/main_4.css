@@ -462,10 +462,11 @@
     /*나중에 삭제*/
 }
 
-#support #support_main_img {
+#support video {
     width: 375px;
     height: 812px;
     margin: 134px 0 0 200px;
+    border-radius: 30px;
 }
 
 #support #support_right {
@@ -574,6 +575,8 @@
     position: absolute;
     top: 134px;
     left: 451px;
+    border-radius: 30px;
+    border: 7px solid #191919;
 }
 
 #volunteer #volunteer_right {

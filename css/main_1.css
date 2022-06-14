@@ -52,7 +52,7 @@
 #mockup {
     float: right;
     position: absolute;
-    left: 778px;
+    left: 790px;
     bottom: -4px;
 }
 
@@ -140,7 +140,9 @@
 /*section 3*/
 #box3_wrap {
     width: 1920px;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("../css/img/background/fire.png");
+    background-repeat: no-repeat; background-size: 100%;
 
 
 }

@@ -38,12 +38,21 @@ $(window).scroll(function () {
     if (scrollTop >= 1000) {
         $("header").css("background-color", "white")
         .css("border-bottom","2px solid #eee");
-        $(".header_li a:visited").css("color", "black");
+
         $(".header_li a").css("color", "black");
+        // .css("transtion","all 3s");
+        // $(".header_li a:visited").css("color", "black");
+        // $(".header_li a:active").css("color", "black");
+        // $(".header_li a:hover").css("color", "#666");
+
     } else {
         $("header").css("background-color", "black");
-        $(".header_li a:visited").css("color", "white");
+
         $(".header_li a").css("color", "white");
+        $("#mockup img").src = "../css/img/logo/header_logo_color.png";
+        // $(".header_li a:visited").css("color", "white");
+        // $(".header_li a:hover").css("color", "#666");
+
 
     }
 

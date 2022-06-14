@@ -79,6 +79,7 @@ header ul .header_li{
 header ul .header_li a{
     text-decoration: none;
     color: black;
+    transition: all .3s;
 }
 header ul .header_li a:active{
     text-decoration: none;
@@ -91,8 +92,10 @@ header ul .header_li a:visited{
 header ul .header_li a:hover{
     text-decoration: none;
     color: #666;
+
+
 }
-a{text-decoration:none}
+a{text-decoration:none;}
 .content_wrap>div{height:1500px}
 div.content{width:1400px;margin:0 auto}
 .hide {display:none}
@@ -153,5 +156,10 @@ h3{
     to{
         opacity: 1;
     }
+}
+
+
+video{
+    border: 7px solid #191919;
 }
 
