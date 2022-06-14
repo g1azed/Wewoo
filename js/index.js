@@ -56,12 +56,6 @@ $(window).scroll(function () {
 
     }
 
-    // $(".content").each(function () {
-    //     var contentIndex = $(this).attr("id");
-    //     if(scrollTop >= $(this).offset().top) {
-    //         $(".scroll_03 a").removeClass("on");
-    //         $(".scroll_03 a[href=#"+contentIndex+"]").addClass("on");
-    //     }
-    // })
+
 });
 

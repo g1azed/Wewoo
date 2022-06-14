@@ -354,7 +354,7 @@
 
 #communicate video {
     width: 375px;
-    height: 812px;
+    height: auto;
     display: inline-block;
 
     margin: 138px 0 334px 454px;
