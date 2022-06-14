@@ -46,7 +46,8 @@ $(window).scroll(function () {
         // $(".header_li a:hover").css("color", "#666");
 
     } else {
-        $("header").css("background-color", "black");
+        $("header").css("background-color", "black")
+        .css("border-bottom","none");
 
         $(".header_li a").css("color", "white");
         $("#mockup img").src = "../css/img/logo/header_logo_color.png";
