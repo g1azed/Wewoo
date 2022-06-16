@@ -1,5 +1,8 @@
 window.onload = function () {
-    var bannerLeft = 0; var first = 1; var last; var imgCnt = 0;
+    var bannerLeft = 0; 
+    var first = 1; 
+    var last; 
+    var imgCnt = 0;
     var $img = $("#icon_slide img");
     var $first; var $last; $img.each(function () {
         // 5px 간격으로 배너 처음 위치 시킴                

@@ -110,7 +110,6 @@ $(document).ready(function () {
 
 });
 
-    // 출처: https://ssamlee.tistory.com/13 [쌈리군's life story:티스토리]
 
 
 
