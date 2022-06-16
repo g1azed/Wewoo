@@ -191,20 +191,36 @@
     width: 1920px;
     height: 250px;
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
+
+    display: inline-flex;
+
+    animation: rolling 10s linear infinite;
+    /* timing-function delay iteration-count direction fill-mode; */
 }
 .banner_w .slide_box{
     width: 607px;
+    margin-right: 550px;
 }
 .banner_w img {
     width: 507px;
     height: auto;
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
 
+    /* margin-right: 450px; */
+    display: inline-block;
 }
 
+@keyframes rolling{
+    from{
+        left: 0;
+    }
+    to{
+        left: -700px;
+    }
 
+}
 
 
 
