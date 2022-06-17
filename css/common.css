@@ -117,6 +117,7 @@ footer{
     background-color: #191919;
     color: white;
     position: relative;
+    margin-bottom: 110px;
 }
 #team{
     font-size: 24px; font-weight: 700; line-height: 24px;
@@ -126,16 +127,26 @@ footer{
 footer div{
     position: absolute;
     top: 250px; left: 200px;
+    display: inline-flex;
 
 
 }
 .name{
     font-size: 20px; font-weight: 500; line-height: 20px;
-    display: inline-block;
+    letter-spacing :2%;
+    display: block;
     margin-right: 125px;
 }
 .name span{
     font-size: 14px; font-weight: 500; line-height: 14px;
+    letter-spacing :-0.2%;
+}
+.name .email{
+    font-size: 14px; font-weight: 500; line-height: 14px;
+    letter-spacing :-0.2%;
+    display: block;
+    padding-top: 10px;
+    color: #999;
 }
 
 p{

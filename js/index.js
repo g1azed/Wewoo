@@ -2,22 +2,30 @@
 AOS.init();
 
 $("#planning").click(function(){
-    console.log("click");
-    $("html, body").animate({scrollTop: 0}, 700 );
+        // console.log("scrollTop");
+    var scrollPosition = $("#box2").offset().top;
+    $("html, body").animate ({scrollTop: scrollPosition }, 700 );
 } );
 $("#video").click(function(){
-    $("html, body").animate({scrollTop: "6336px"}, 700 );
+    var scrollPosition = $("#movie").offset().top;
+    $("html, body").animate({scrollTop: scrollPosition }, 700 );
 } );
 $("#design").click(function(){
-    $("html, body").animate({scrollTop: "9043px"}, 700 );
+    var scrollPosition = $("#box8").offset().top;
+    $("html, body").animate({scrollTop: scrollPosition }, 700 );
 } );
 $("#service").click(function(){
-    $("html, body").animate({scrollTop: "14480px"}, 700 );
+    var scrollPosition = $("#box11").offset().top;
+    $("html, body").animate({scrollTop: scrollPosition }, 700 );
 } );
+
+
+
+
 var lastScrollTop = 0;
 
 $(window).scroll(function () {
-
+    var lastScrollTop = 0;
 
     var scrollTop = $(this).scrollTop(); 
 
