@@ -76,14 +76,22 @@
     margin-top: 94px;
     width: 1920px;
     height: auto;
-    background-image: url(./img/iPhone_Frame.png);
+    background-image: url(./img/mockup/i_frame.png);
     background-size: 20.1%;
     background-repeat: no-repeat;
     background-position: top center;
 
     position: relative;
 }
+#home_img #home_frame{
+    width: 1920px; height: 812px;
+    background-image: url(./img/mockup/i_frame.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
 
+    left: 766px
+}
 #home_img #home_bg {
     width: 375px;
     height: auto;
@@ -283,10 +291,14 @@
 .one_time {
     /* position: relative;
     top: 500px; */
-    width: 500px;
+    width: 540px;
     height: 170px;
     float: left;
     margin-top: 110px;
+}
+.one_time div{
+    width: 527px;
+    overflow-x: hidden;
 }
 .one_time div p{
     width: 497px;
@@ -300,6 +312,7 @@
     height: auto;
 
     margin-right: 15px;
+    overflow-x: hidden;
 }
 
 .one_time .prev-arrow {
@@ -571,7 +584,7 @@
 
 #volunteer #volun_main {
     width: 375px;
-    height: 812px;
+    height: auto;
     position: absolute;
     top: 134px;
     left: 451px;
@@ -590,6 +603,8 @@
     width: 381px;
     height: auto;
     margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 
 }
 

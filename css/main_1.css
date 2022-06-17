@@ -139,15 +139,20 @@
 
 /*section 3*/
 #box3_wrap {
-    width: 1920px;
+    width: 1920px;    height: 1080px;
     /* background-color: black; */
-    background-image: url("../css/img/background/fire_bg.png");
+    /* background: url("../css/img/background/fire_bg.png"); */
     background-repeat: no-repeat; background-size: cover;
-
-
+    /* overflow: hidden; */
+    position: relative;
 }
 #box3 {
     color: white;
+    position:absolute;
+}
+video#box3_bg{    
+    width: 100%;
+    position: absolute;
 }
 
 #box3_top {
@@ -185,7 +190,7 @@
 .banner_wrap{
     width: 1920px;
     position: absolute;
-    top: 2950px;
+    top: 750px;
 }
 .banner_w {
     width: 1920px;
@@ -212,15 +217,7 @@
     display: inline-block;
 }
 
-@keyframes rolling{
-    from{
-        left: 0;
-    }
-    to{
-        left: -700px;
-    }
 
-}
 
 
 

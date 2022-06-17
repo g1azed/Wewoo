@@ -117,7 +117,7 @@ footer{
     background-color: #191919;
     color: white;
     position: relative;
-    margin-bottom: 110px;
+    /* margin-bottom: 110px; */
 }
 #team{
     font-size: 24px; font-weight: 700; line-height: 24px;
@@ -170,7 +170,20 @@ h3{
 }
 
 
-video{
+.border_v {
     border: 7px solid #191919;
 }
 
+
+
+
+
+@keyframes rolling{
+    from{
+        left: 100px;
+    }
+    to{
+        left: -500px;
+    }
+
+}
